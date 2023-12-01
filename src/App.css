@@ -19,6 +19,66 @@
   margin-top: 24px;
 }
 
+/* ========= Main Section ========= */
+
+.main{
+  background-color: #FFF;
+  padding: 5%;
+}
+
+.week-special{
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.card{
+  position: relative;
+}
+
+.card-body{
+  background-color: #6b8079;
+  color: #FFF;
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card-bottom span{
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+}
+
+.card-bottom button{
+  position: absolute;
+  bottom: 4%;
+  right: 5%;
+}
+
+.card-title{
+  font-weight: bold;
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+  color: #ffd501;
+}
+
+.card-text{
+  min-height: 100px;
+}
+
+.btn-ordernow{
+  background-color: #ffd501;
+  padding: 10px 28px;
+  font-weight: bold;
+}
+
+.btn-ordernow:hover{
+  background-color: rgb(255, 175, 1);
+  color: #FFF;
+  padding: 10px 28px;
+}
+
 
 /* ========= Media Queries ========= */
 
@@ -71,5 +131,31 @@
   .btn-warning{
     font-size: 2rem;
     padding: 10px 28px;
+  }
+}
+
+@media (max-width: 376px) {
+  .card-title{
+    font-size: 1.6rem;
+  }
+}
+
+@media (min-width: 406px) {
+  .card-title{
+    font-size: 2.3rem;
+  }
+}
+
+@media (min-width: 436px) and (max-width: 586px) {
+
+  .card-text{
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 586px) and (max-width: 766px) {
+
+  .card-text{
+    font-size: 1.3rem;
   }
 }
