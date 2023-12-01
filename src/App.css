@@ -79,6 +79,16 @@
   padding: 10px 28px;
 }
 
+/* ========= Footer ========= */
+
+footer {
+  background-color: #f1f3f5;
+}
+
+i{
+  color: #495E57;
+}
+
 
 /* ========= Media Queries ========= */
 
