@@ -3,37 +3,42 @@ import FooterImg from '../assets/FooterImg.png'
 
 const Footer = () => {
   return (
-    <footer className='container-fluid p-4'>
+    <footer className='container-fluid'>
       <div className='row'>
-        <div className='col-12 text-center'>
-          <img src={FooterImg} alt='footer image' width={200} />
+        <div className='col-12 col-md-4 text-center footer-logo my-auto'>
+          <img src={FooterImg} alt='footer image' width={180} />
         </div>
+        <div className='col-6 col-md-4 mt-5 d-flex flex-column justify-content-center'>
+          <div className='d-flex align-items-center gap-2 mb-3'>
+            <i class="fa-solid fa-location-dot fa-lg"></i>
+            <span className=''>123 Town Street, Chicago</span>
+          </div>
+          <div className='d-flex align-items-center gap-2 mb-3'>
+            <i class="fa-solid fa-phone fa-lg"></i>
+            <span>+00 123 456 789</span>
+          </div>
+          <div className='d-flex align-items-center gap-2 mb-3'>
+            <i class="fa-solid fa-envelope fa-lg"></i>
+            <span>littlelemon@gmail.com</span>
+          </div>
+        </div>
+
         <div className='col-6 col-md-4 mt-5'>
-          <div className='d-flex flex-column gap-4 align-items-center'>
-            <i class="fa-solid fa-location-dot fa-2xl"></i>
-            <p>123 Town Street, Chicago</p>
+          <h6 className='mb-3 px-2'>Connect with us</h6>
+          <div className='d-flex align-items-center gap-2 mb-3 px-3'>
+            <i class="fa-brands fa-square-facebook fa-lg"></i>
+            <span className=''>Facebook</span>
+          </div>
+          <div className='d-flex align-items-center gap-2 mb-3 px-3'>
+            <i class="fa-brands fa-square-instagram fa-lg"></i>
+            <span>Instagram</span>
+          </div>
+          <div className='d-flex align-items-center gap-2 mb-3 px-3'>
+            <i class="fa-brands fa-square-twitter fa-lg"></i>
+            <span>Twitter</span>
           </div>
         </div>
-        <div className='col-6 col-md-4 mt-5'>
-          <div className='d-flex flex-column gap-4 align-items-center'>
-            <i class="fa-solid fa-phone fa-2xl"></i>
-            <p>+00 123 456 789</p>
-          </div>
-        </div>
-        <div className='col-12 col-md-4 mt-5'>
-          <div className='d-flex flex-column gap-4 align-items-center'>
-            <i class="fa-solid fa-envelope fa-2xl"></i>
-            <p>littlelemon@gmail.com</p>
-          </div>
-        </div>
-        <div className='col-12 d-flex flex-column align-items-center'>
-          <h6 className='p-3'>Connect with us</h6>
-          <div className='d-flex justify-content-center gap-3'>
-            <i class="fa-brands fa-square-facebook fa-2xl"></i>
-            <i class="fa-brands fa-square-instagram fa-2xl"></i>
-            <i class="fa-brands fa-square-twitter fa-2xl"></i>
-          </div>
-        </div>
+
         <div className='col-12 py-4'>
           <h6 className='text-center mt-4'>&copy; Little Lemon Restaurant | 2023</h6>
         </div>
