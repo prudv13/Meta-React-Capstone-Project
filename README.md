@@ -1,4 +1,4 @@
-# Splurge - Shopping Application
+# Little Lemon Application
 
 [![N|Logo](https://res.cloudinary.com/dqab7rimk/image/upload/v1701624757/little-lemon-project/litte-lemon-react_ddxs5e.png)](https://littlelemon-react.netlify.app)
 
