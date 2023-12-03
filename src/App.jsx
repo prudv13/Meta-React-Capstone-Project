@@ -3,7 +3,6 @@ import './App.css'
 import Nav from './Components/Nav'
 import { Route, Routes } from 'react-router-dom'
 import HomePage from './Components/HomePage'
-import BookingPage from './Components/BookingPage'
 import Footer from './Components/Footer'
 import Booking from './Components/Booking'
 
