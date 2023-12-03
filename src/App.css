@@ -112,6 +112,18 @@ i{
   background-position: bottom;
 }
 
+.fa-circle-check{
+  color: green;
+}
+
+.dining-table-img, .modal-logo-img{
+  max-width: 50%;
+}
+
+.modal-logo-img{
+  max-width: 45%;
+}
+
 /* ========= Media Queries ========= */
 
 @media (min-width: 950px){
