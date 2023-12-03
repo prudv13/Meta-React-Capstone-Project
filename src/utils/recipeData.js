@@ -20,4 +20,11 @@ export const recipes = [
         recipeDescription:"This comes straight from grandma's recipe book, every last ingredient has been sourced and is as authentic as can be imagined.",
         recipePrice: "$4.78"
     },
+    {
+        id: 4,
+        recipeTitle: "Lemonade",
+        recipeImg:"https://images.pexels.com/photos/96974/pexels-photo-96974.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+        recipeDescription:"Lemonade is a refreshing beverage made from lemon juice, water, and sugar. It is a good source of vitamin C.",
+        recipePrice: "$2.13"
+    },
 ];
